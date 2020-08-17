@@ -1,0 +1,26 @@
+[Unit]
+Description=TheCash's distributed currency daemon
+After=network.target
+
+[Service]
+User=thecash
+Group=thecash
+
+Type=forking
+PIDFile=/var/lib/thecashd/thecashd.pid
+
+ExecStart=/usr/bin/thecashd -daemon -pid=/var/lib/thecashd/thecashd.pid \
+          -conf=/etc/thecash/thecash.conf -datadir=/var/lib/thecashd
+
+ExecStop=-/usr/bin/thecash-cli -conf=/etc/thecash/thecash.conf \
+         -datadir=/var/lib/thecashd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

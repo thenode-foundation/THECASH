@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/thecash_bg.qm</file>
+        <file alias="ca">locale/thecash_ca.qm</file>
+        <file alias="cs">locale/thecash_cs.qm</file>
+        <file alias="da">locale/thecash_da.qm</file>
+        <file alias="de">locale/thecash_de.qm</file>
+        <file alias="en">locale/thecash_en.qm</file>
+        <file alias="en_US">locale/thecash_en_US.qm</file>
+        <file alias="es">locale/thecash_es.qm</file>
+        <file alias="fi">locale/thecash_fi.qm</file>
+        <file alias="fr_FR">locale/thecash_fr_FR.qm</file>
+        <file alias="hr">locale/thecash_hr.qm</file>
+        <file alias="it">locale/thecash_it.qm</file>
+        <file alias="ja">locale/thecash_ja.qm</file>
+        <file alias="ko_KR">locale/thecash_ko_KR.qm</file>
+        <file alias="nl">locale/thecash_nl.qm</file>
+        <file alias="pl">locale/thecash_pl.qm</file>
+        <file alias="pt">locale/thecash_pt.qm</file>
+        <file alias="pt_BR">locale/thecash_pt_BR.qm</file>
+        <file alias="ro_RO">locale/thecash_ro_RO.qm</file>
+        <file alias="ru">locale/thecash_ru.qm</file>
+        <file alias="sk">locale/thecash_sk.qm</file>
+        <file alias="sv">locale/thecash_sv.qm</file>
+        <file alias="tr">locale/thecash_tr.qm</file>
+        <file alias="uk">locale/thecash_uk.qm</file>
+        <file alias="zh_CN">locale/thecash_zh_CN.qm</file>
+        <file alias="zh_TW">locale/thecash_zh_TW.qm</file>
+    </qresource>
+</RCC>

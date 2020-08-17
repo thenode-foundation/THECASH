@@ -1,0 +1,26 @@
+# /etc/conf.d/thecashd: config file for /etc/init.d/thecashd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/thecash/thecash.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/thecashd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/thecashd.pid"
+
+# Where to write thecashd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/thecashd"
+
+# User and group to own thecashd process
+#BITCOIND_USER="thecash"
+#BITCOIND_GROUP="thecash"
+
+# Path to thecashd executable
+#BITCOIND_BIN="/usr/bin/thecashd"
+
+# Nice value to run thecashd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

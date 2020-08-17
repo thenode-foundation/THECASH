@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TheCash
+Comment=TheCash P2P Cryptocurrency
+Comment[fr]=TheCash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TheCash, eşten eşe kriptografik sanal para birimi
+Exec=thecash-qt %u
+Terminal=false
+Type=Application
+Icon=thecash128
+MimeType=x-scheme-handler/thecash;
+Categories=Office;Finance;
